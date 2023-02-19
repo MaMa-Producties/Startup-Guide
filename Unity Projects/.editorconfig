@@ -510,7 +510,7 @@ dotnet_naming_style.begins_with_i.capitalization = pascal_case
 dotnet_naming_style.begins_with_t.required_prefix = T
 dotnet_naming_style.begins_with_t.required_suffix = 
 dotnet_naming_style.begins_with_t.word_separator = 
-dotnet_naming_style.begins_with_t.capitalization = pascal_casenone
+dotnet_naming_style.begins_with_t.capitalization = pascal_case
 
 # Code Style | Naming | Styles | Begins with Underscore
 dotnet_naming_style.begins_with_underscore.required_prefix = _
