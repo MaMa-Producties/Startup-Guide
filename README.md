@@ -57,7 +57,7 @@ After installing the Unity Hub, we can now install a Unity version. To do so, op
 5. Request access to the packages for the Nest projects.
 
 ### Magic Leap 
-1. Follow the instructions for the [Unity start-up](###Unity-Start-Up).
+1. Follow the instructions for the [Unity start-up](###Unity-Start-Up), but when choosing the Unity version, select <strong>Unity 2020</strong>..
 2. Create a Magic Leap Account on the [Magic Leap](https://ml1-developer.magicleap.com/en-us/home) website.
 2. Follow the [Magic Leap Setup Guide](https://ml1-developer.magicleap.com/en-us/learn/guides/set-up-development-environment).
 3. To set up the developer certificate, follow the [guide](https://ml1-developer.magicleap.com/en-us/learn/guides/developer-certificates). <strong>Important</strong> Your private key (.privkey) and certificate (.cert) files must always be in the same directory. For MacOS may change the file extension to .privkey.key or key. Ensure that the file extension is .privkey.
