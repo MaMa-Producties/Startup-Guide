@@ -39,7 +39,7 @@ This repository is the basis for any project for MamaProducties.
 Go to the [Visual Studio](https://visualstudio.microsoft.com/vs/) website, then download the Visual Studio 2022 Community edition. During installation, also select the Game development with Unity workload.
 
 2. Install the format on save extension
-Start-up Visual Studio 2022, select Extensions/Manage Extensions in the toolbar. Fill in Format on Save for VS2022 in the search bar. Select the extension and install it.
+Start-up Visual Studio 2022, select Extensions/Manage Extensions in the toolbar. Fill in [Format on Save for VS2022](https://marketplace.visualstudio.com/items?itemName=WinstonFeng.VSFormatOnSave2022) in the search bar. Select the extension and install it.
 
 3. Install Unity Hub    
 Go to the [Unity](https://unity.com/download) website and download the version for your operating system.
