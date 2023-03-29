@@ -28,7 +28,7 @@ This repository is the basis for any project for MamaProducties.
 - [GitHub Desktop](https://desktop.GitHub .com/) (Recommended for artists)
 - [Git Bash](https://gitforwindows.org/) (Not Recommended only for experienced Git Users)
 - Other options are also good as long as they are free to use commercially.
-4. (Optional) Set up SSH from the instructions listed [here](https://support.atlassian.com/bitbucket-cloud/docs/set-up-personal-ssh-keys-on-windows/). Then add your SSH key to your GitHub account.
+4. (Optional) Set up SSH from the instructions listed [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh). Then add your SSH key to your GitHub account.
 5. Create an Atlassian account.
 6. Request access to the Jira boards for planning.
 7. Create a Discord account.
