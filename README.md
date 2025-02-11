@@ -1,6 +1,28 @@
 # Start-Up Guide
 This repository is the basis for any project for MamaProducties. 
 
+## Git Strategy MaMa Productions?
+### Commit strategy
+Each commit should contain only a single new element. For example, when a
+commit message requires an ”and” it is generally advisable to rethink. Commit
+messages are written in an Imperative Mood. For example, Describe your change
+set as if you are giving instructions to the versioning system.
+
+### Branching strategy
+The branching strategy comprises a main branch and separate topic branches
+for individual feature development. Each topic branch is named with a prefix to
+indicate the type of topic. A ”feature/” prefix indicates that the topic branch
+is for a new feature, while a ”bug fix/” prefix indicates that the topic branch
+fixes an issue in the current main branch.
+
+![Branching Strategy GIT](./Images/BranchingStrategy.png?raw=true "Branching Strategy GIT")
+
+### Merging strategy
+When a topic branch is functional and ready for development, create a pull
+request on GitHub to merge it. Never merge or commit directly to the main
+branch. After receiving at least one approval, you can merge your pull request
+into the main branch.
+
 ## How to set up a project?
 ### Unity
 0. Make sure you first finish the [start-up guide](##Start-up-Guide).
