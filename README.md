@@ -96,3 +96,7 @@ into the main branch.
 4. Transform > +Y Up
 5. Geometry > Apply modifiers, UVs, Normals, Vertex colors, Materials > Export, Images > Automatic
 6. Animation (in case of animations) > enable Animation (default settings)
+
+
+## Blender cheat sheet
+![Branching Strategy GIT](./Images/cheatsheet-blender.png?raw=true "Branching Strategy GIT")
