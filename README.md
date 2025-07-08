@@ -86,3 +86,13 @@ into the main branch.
  ### Neuro Feedback
 1. Follow the instructions for the [Unity start-up](###Unity-Start-Up), but when choosing the Unity version, select <strong>Unity 2017</strong>.
 2. Ensure that the SSH connection is successful.
+
+
+# Artist guidelines
+## Export guide Blender
+1. Select the objects you want to export (after applying rotation and scale)
+2. Export > glTF 2.0 (.glb/.gltf)
+3. Include > Selected objects
+4. Transform > +Y Up
+5. Geometry > Apply modifiers, UVs, Normals, Vertex colors, Materials > Export, Images > Automatic
+6. Animation (in case of animations) > enable Animation (default settings)
