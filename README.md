@@ -6,7 +6,7 @@ This repository serves as the basis for all MamaProducties projects.
 2. Request access to the GitHub organization.
 3. Install Sourcetree, GitHub Desktop, or Git Bash.
 - [Sourcetree](https://www.sourcetreeapp.com/) (Recommended for developers)
-- [GitHub Desktop](https://desktop.GitHub .com/) (Recommended for artists)
+- [GitHub Desktop](https://desktop.GitHub.com/) (Recommended for artists)
 - [Git Bash](https://gitforwindows.org/) (Not Recommended, only for experienced Git Users)
 - Other options are also good as long as they are free to use commercially.
 4. (Optional) Set up SSH from the instructions listed [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh). Then add your SSH key to your GitHub account.
