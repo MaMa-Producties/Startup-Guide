@@ -38,6 +38,68 @@ After installing the Unity Hub, we can now install a Unity version. To do so, op
 5. Request access to the packages for the Nest projects.
 
 # Developer instructions
+## Coding standards
+### Unity specific
+Do not use public only to make variables available in the editor. Use ```[SerializeField] private ```
+instead.
+
+
+### Naming Conventions
+#### Classes
+Use ```PascalCase``` for class names (e.g., ```MyClass```).
+
+#### Method Names
+Use ```PascalCase``` for methods (e.g., ```void Example() {}```).
+
+
+### Commenting and Documentation
+#### Inline commnets
+Use inline comments sparingly, and place them on their own line if they explain complex logic.
+
+
+### XML Documentation
+For all classes and methods, use XML documentation. 
+
+To utilize XML Documentation comments, type `///` and hit enter. Visual Studio auto-generates the XML documentation comment for you.
+
+Then fill in all values between the `<></>` brackets.
+
+## Testing strategy
+There are no explicit requirements for unit testing, but it is highly encouraged if the project has enough time for it. 
+## Planning
+Planning utilizes GitHub projects to manage tasks and bugs utilizing the Feature release template.  
+
+Where each feature to work on in the project uses the use case format. Such as:
+As a user, I want  ... so that ...
+
+
+### Bug and Feature Reporting strategy
+When discovering a bug or when thinking up a new feature, write a short report in the GitHub Issues section of the GitHub repository.
+
+A bug report uses the following pattern:
+```text
+**Type**: BUG
+**Description**
+
+**Steps to Reproduce**
+
+**Expected Behavior**
+
+**Actual Behavior**
+
+**Related error** (Optional)
+```
+
+A feature request uses the following pattern:
+```text
+**Issue Type**: Feature
+**Description**
+
+**Steps to Implement**
+
+**Additional Context** (Optional)
+```
+
 ## Git Strategy MaMa Productions?
 ### Commit strategy
 Each commit should contain only a single new element. For example, when a
