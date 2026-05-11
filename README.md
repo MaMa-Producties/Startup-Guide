@@ -112,10 +112,7 @@ The branching strategy comprises a main branch and separate topic branches for i
 ![Branching Strategy GIT](./Images/BranchingStrategy.png?raw=true "Branching Strategy GIT")
 
 ### Merging strategy
-When a topic branch is functional and ready for development, create a pull
-request on GitHub to merge it. Never merge or commit directly to the main
-branch. After receiving at least one approval, you can merge your pull request
-into the main branch.
+After creating a topic branch, immediately create a pull request and mark it as a draft. Then, when it is functional and ready for development, create a pull request on GitHub to merge it. Never merge or commit directly to the main branch. After receiving at least one approval, you can merge your pull request into the main branch. 
 
 ## How to set up a project?
 ### Unity
