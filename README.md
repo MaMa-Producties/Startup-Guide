@@ -109,10 +109,26 @@ messages are written in the Imperative Mood. For example, describe your change s
 ### Branching strategy
 The branching strategy comprises a main branch and separate topic branches for individual feature development. Each topic branch is named with a prefix to indicate the type of topic. A "feature/" prefix indicates that the topic branch is for a new feature, while a "bugfix/" prefix indicates that the topic branch fixes an issue in the current main branch.
 
+Topic Prefixes
+* feature/: Dedicated to a single new piece of functionality.
+* bugfix/: Dedicated to fixing a specific, existing issue.
+
+A branch must have one specific goal. If you find yourself working on something outside the scope of your branch name, stop. Commit your current work, switch to a new branch, and address the new task there.
+<strong>CRITICAL</strong>: Do not "piggyback" bug fixes onto feature branches. If you discover a bug while working on a feature, create a separate bugfix/ branch.
+
 ![Branching Strategy GIT](./Images/BranchingStrategy.png?raw=true "Branching Strategy GIT")
 
 ### Merging strategy
-After creating a topic branch, immediately create a pull request on GitHub and mark it as a draft. Then, when it is functional and ready for development, update the pull request to ready. Never merge or commit directly to the main branch. After receiving at least one approval, you can merge your pull request into the main branch. 
+After creating a topic branch, immediately create a pull request on GitHub and mark it as a draft. Then, when it is useful for development, update the pull request to ready. Never merge or commit directly to the main branch. After receiving at least one approval, you can merge your pull request into the main branch. 
+
+### Technical note: Keeping topic branches up to date
+Rebasing your topic branches onto the main branch is encouraged to keep them up to date. Since topic branches are individual, you are allowed to rewrite history on your own branch.
+
+* Use git rebase main to pull in the latest changes.
+
+* Use git push --force-with-lease to update your Draft PR.
+
+<strong>CRITICAL</strong>: Never rebase the main branch itself.
 
 ## How to set up a project?
 ### Unity
