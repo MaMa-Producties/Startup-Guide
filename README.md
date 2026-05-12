@@ -100,7 +100,7 @@ A feature request uses the following pattern:
 **Additional Context** (Optional)
 ```
 
-## Git Strategy MaMa Productions?
+## Git Strategy
 ### Commit strategy
 Each commit should contain only a single new element. For example, when a
 commit message requires an "and" it is generally advisable to rethink. Commit
