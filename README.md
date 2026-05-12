@@ -143,9 +143,18 @@ After creating a topic branch, immediately create a pull request on GitHub and m
 4. Tip: When developing with the Magic Leap, always ensure that when not actively using the device, it is charging.
  
  ### Neuro Feedback
-1. Follow the instructions for the [Unity start-up](###Unity-Start-Up), but when choosing the Unity version, select <strong>Unity 2017</strong>.
+1. Follow the instructions for the [Unity start-up](###Unity-Start-Up), but when choosing the Unity version, select a Unity version after <strong>Unity 2017</strong>.
 2. Ensure that the SSH connection is successful.
+3. Initialize git submodules
+4. Copy and extract the plugins.zip folder into the root folder of the Unity Project
 
+
+## Verification Developer
+After following all the necessary steps, post the following message in the #onboarding channel:
+Startup Complete
+* Role: Developer
+* Development Setup: [Date Completed]
+* GitHub/Jira Access: Verified
 
 # Artist guidelines
 ## Export guide Blender
@@ -159,3 +168,11 @@ After creating a topic branch, immediately create a pull request on GitHub and m
 
 ## Blender cheat sheet
 ![Branching Strategy GIT](./Images/cheatsheet-blender.png?raw=true "Branching Strategy GIT")
+
+## Verification Artist
+After following all the necessary steps, post the following message in the #onboarding channel:
+
+Startup Complete
+* Role: Artist
+* Art Setup: [Date Completed]
+* GitHub/Jira Access: Verified
