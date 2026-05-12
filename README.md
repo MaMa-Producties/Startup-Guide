@@ -114,7 +114,7 @@ Topic Prefixes
 * bugfix/: Dedicated to fixing a specific, existing issue.
 
 A branch must have one specific goal. If you find yourself working on something outside the scope of your branch name, stop. Commit your current work, switch to a new branch, and address the new task there.
-<strong>CRITICAL</strong>: Do not "piggyback" bug fixes onto feature branches. If you discover a bug while working on a feature, create a separate bugfix/ branch, merge it immediately, and then pull it back into your feature.
+<strong>CRITICAL</strong>: Do not "piggyback" bug fixes onto feature branches. If you discover a bug while working on a feature, create a separate bugfix/ branch.
 
 ![Branching Strategy GIT](./Images/BranchingStrategy.png?raw=true "Branching Strategy GIT")
 
